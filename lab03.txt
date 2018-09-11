@@ -14,7 +14,21 @@ For this assignment you will follow the instructions at the above link to:
 
 In this space, type the sequence of commands you used to achieve the final state of all four files:
 
+# a is untracked
+touch a
+# b is modified
+touch b
+# c is in the repo
+touch c
+# d is staged
+touch d
 
+git init
+git status
+git add b c d
+git commit -m "Commit b" b
+echo "Hi" > b
+git commit -m "Put c in the repo" c
 
 
 %%%%%%%%%%%%%%% Working with GitHub %%%%%%%%%%%%%%%%%%%%%%
