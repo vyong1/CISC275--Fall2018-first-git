@@ -24,7 +24,6 @@ touch c
 touch d
 
 git init
-git status
 git add b c d
 git commit -m "Commit b" b
 echo "Hi" > b
