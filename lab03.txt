@@ -37,7 +37,7 @@ git commit -m "Put c in the repo" c
 - Clone this repository to your local machine: https://github.com/dixit-udel/CISC275-Fall2018-first-git (DO NOT FORK IT)
 
 Create an empty repository under your GitHub account and name it "CISC275-Fall2018-first-git".
-Paste the URL of your repository here:
+Paste the URL of your repository here: https://github.com/vyong1/CISC275--Fall2018-first-git
 
 Back in your machine, create a new local repository:
 
