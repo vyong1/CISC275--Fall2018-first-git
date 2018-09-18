@@ -1,11 +1,9 @@
-package src;
-
 class Dog extends Animal implements Comparable<Dog>
 {
 	public Dog(String name, int legs)
 	{
-		this.name = name;
-		this.legs = legs;
+        this.setName(name);
+        this.setLegs(legs);
 	}
 
 	public int compareTo(Dog other)
@@ -15,6 +13,6 @@ class Dog extends Animal implements Comparable<Dog>
 
 	public String toString()
 	{
-		return this.name;
+		return super.toString();
 	}
 }
