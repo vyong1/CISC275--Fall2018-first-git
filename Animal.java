@@ -1,5 +1,3 @@
-package src;
-
 class Animal
 {
 	private String name;
@@ -13,7 +11,17 @@ class Animal
 	public int getLegs()
 	{
 		return this.legs;
-	}
+    }
+
+    public void setLegs(int legs)
+    {
+        this.legs = legs;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
 	
 	public String toString()
 	{
